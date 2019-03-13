@@ -6,7 +6,7 @@ This is a repository with the original implementation of the weakly-supervised s
 
 
 <div align="center">
-  <img src="example_semantic_segmentation.png" alt="weakly segmentation results" width="350"/>
+  <img src="example_semantic_segmentation.png" alt="weakly segmentation results" width="600"/>
   <p>Example of our semantic segmentation results.</p>
 </div>
 
