@@ -1,0 +1,8 @@
+/home/carolina/projects/MESMERISE/DeepLab/benchmark_RELEASE/dataset/algo/2007_000032.mat
+/home/carolina/projects/MESMERISE/DeepLab/benchmark_RELEASE/dataset/algo-or/2007_000032.mat
+
+
+Check failed: outer_num_ * inner_num_ * 3 == bottom[1]->count(0) (5043 vs. 1681) 
+Number of labels must match the number of predictions because there are three channels, 
+one for gt labels per pixel and one for objectness labels per pixel and one for unique classes; 
+e.g., if softmax axis == 1 and prediction shape is (N, C, H, W), label count (number of labels) must be 3*N*H*W, with integer values in {0, 1, ..., C-1}.
